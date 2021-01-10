@@ -1,0 +1,120 @@
+.header {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__country {
+  color: #fff;
+  display: flex;
+  margin: 10px;
+  font-size: 0.9em;
+}
+
+.header__countryIcon {
+  margin-top: 10px;
+  margin-right: 3px;
+}
+
+.header__countryInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.header__logo {
+  width: 7vw;
+  object-fit: contain;
+  margin: 0 10px 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 4vh;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 4vh !important;
+  background-color: #cd9042;
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.header__option:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header__optionLineOne {
+  font-size: 0.7em;
+}
+
+.header__optionLineTwo {
+  font-size: 0.9em;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.header__basketCount {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 0.6em;
+  }
+
+  .header__logo {
+    margin: auto;
+    margin-left: 10px;
+  }
+
+  .header__countryIcon {
+    margin: 0;
+  }
+
+  .header__option {
+    margin: 0 3px;
+  }
+
+  .header__searchInput {
+    width: 50%;
+  }
+
+  .header__optionBasket {
+    margin: 0;
+  }
+}
