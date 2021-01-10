@@ -10,7 +10,7 @@
 /coverage
 
 # production
-/build
+/client/build
 
 # dotenv
 .env
@@ -19,11 +19,15 @@
 /client/.eslintcache
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
 
 npm-debug.log*
 yarn-debug.log*
